@@ -6,7 +6,7 @@ import toast from 'react-hot-toast';
 
 import { useStateContext } from '../context/StateContext';
 import { urlFor } from '../lib/client';
-import Image from 'next/image'
+// import Image from 'next/image'
 // import getStripe from '../lib/getStripe';
 
 const Cart = () => {
@@ -24,8 +24,8 @@ const Cart = () => {
       body: JSON.stringify(cartItems),
     });
 
-    if(response.statusCode === 500) return;
-    
+    if (response.statusCode === 500) return;
+
     const data = await response.json();
 
     toast.loading('Redirecting...');
@@ -37,9 +37,9 @@ const Cart = () => {
     <div className="cart-wrapper" ref={cartRef}>
       <div className="cart-container">
         <button
-        type="button"
-        className="cart-heading"
-        onClick={() => setShowCart(false)}>
+          type="button"
+          className="cart-heading"
+          onClick={() => setShowCart(false)}>
           <AiOutlineLeft />
           <span className="heading">Your Cart</span>
           <span className="cart-num-items">({totalQuantities} items)</span>
@@ -64,10 +64,17 @@ const Cart = () => {
         <div className="product-container">
           {cartItems.length >= 1 && cartItems.map((item) => (
             <div className="product" key={item._id}>
-              <img 
-              src={urlFor(item?.image[0])}
-              alt={item.name}
-              className="cart-product-image" />
+              <img
+                src={urlFor(item?.image[0])}
+                alt={item.name}
+                className="cart-product-image" 
+                />
+              {/* <Image
+                src={urlFor(item?.image[0])}
+                alt={item.name}
+                // className="cart-product-image"
+              width={150}
+              height={150} /> */}
               <div className="item-desc">
                 <div className="flex top">
                   <h5>{item.name}</h5>
@@ -75,13 +82,13 @@ const Cart = () => {
                 </div>
                 <div className="flex bottom">
                   <div>
-                  <p className="quantity-desc">
-                    <span className="minus" onClick={() => toggleCartItemQuanitity(item._id, 'dec') }>
-                    <AiOutlineMinus />
-                    </span>
-                    <span className="num" onClick="">{item.quantity}</span>
-                    <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, 'inc') }><AiOutlinePlus /></span>
-                  </p>
+                    <p className="quantity-desc">
+                      <span className="minus" onClick={() => toggleCartItemQuanitity(item._id, 'dec')}>
+                        <AiOutlineMinus />
+                      </span>
+                      <span className="num" onClick="">{item.quantity}</span>
+                      <span className="plus" onClick={() => toggleCartItemQuanitity(item._id, 'inc')}><AiOutlinePlus /></span>
+                    </p>
                   </div>
                   <button
                     type="button"
