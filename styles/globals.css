@@ -537,6 +537,23 @@ span.text-red {
   border-style:groove;
 }
 
+.cart-images-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  width: 180px;
+  height: 180px;
+}
+
+.cart-image {
+  border-radius: 8px;
+  /* background-color: #ebebeb; */
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
 .reviews {
   color: #f02d34;
   margin-top: 10px;

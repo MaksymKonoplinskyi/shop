@@ -64,11 +64,14 @@ const Cart = () => {
         <div className="product-container">
           {cartItems.length >= 1 && cartItems.map((item) => (
             <div className="product" key={item._id}>
+              <div className="cart-images-container">
+
               <img
                 src={urlFor(item?.image[0])}
-                alt={item.name}
-                className="cart-product-image" 
+                alt={`${item.name}`}
+                className="cart-image" 
                 />
+                </div>
               {/* <Image
                 src={urlFor(item?.image[0])}
                 alt={item.name}
