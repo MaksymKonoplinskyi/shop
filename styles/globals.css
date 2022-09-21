@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #dfdfdf;
+  background-color: #d8d8d8;
 }
 * {
   padding: 0;
@@ -163,7 +163,7 @@ span.text-red {
 
 .hero-banner-container {
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #FEC901;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -255,7 +255,7 @@ span.text-red {
 
 .footer-banner-container {
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #1882fa;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -273,8 +273,8 @@ span.text-red {
 .banner-desc button {
   border-radius: 15px;
   padding: 10px 16px;
-  background-color: white;
-  color: red;
+  background-color: red;
+  color: white;
   border: none;
   margin-top: 40px;
   font-size: 18px;
