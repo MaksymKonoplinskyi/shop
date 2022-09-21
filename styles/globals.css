@@ -2,6 +2,7 @@ html,
 body {
   background-color: #e7e7e7;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -120,7 +121,7 @@ span.text-red {
   gap: 15px;
   margin-top: 20px;
   width: 100%;
-  
+
 }
 
 .product-card {
@@ -197,17 +198,32 @@ span.text-red {
 .hero-banner-container h1 {
   color: white;
   font-size: 10em;
-  margin-left: -20px;
+  /* margin-left: -20px; */
   text-transform: uppercase;
 }
 
+.hero-banner-image-container {
+  position: absolute;
+  top: 5%;
+  right: -350px;
+  /* left: 0%; */ 
+
+}
+
 .hero-banner-image {
+  object-fit: contain;
+  /* width: 50% */
+   width: 70%;
+  height: 70%;
+}
+
+/* .hero-banner-image {
   position: absolute;
   top: 0%;
   right: 20%;
   width: 450px;
   height: 450px;
-}
+} */
 
 
 .desc {
@@ -292,12 +308,17 @@ span.text-red {
   margin: 18px;
 }
 
-.footer-banner-image {
+.footer-banner-image-container {
   position: absolute;
-  /* top: -35%;
-  left: 8%; */
   top: -25%;
-  left: 25%;
+  left: 20%;
+  /* top: -25%;
+  left: 25%; */
+}
+
+.footer-banner-image {
+  object-fit: contain;
+  width: 65%;
 }
 
 .banner-desc .right {
@@ -537,7 +558,7 @@ span.text-red {
 }
 
 .small-image {
-  
+
 
   object-fit: contain;
   width: 100%;
@@ -547,7 +568,7 @@ span.text-red {
 
 .selected-image {
   /* background-color: #f02d34; */
-  border-style:groove;
+  border-style: groove;
   border-radius: 8px;
 }
 
@@ -764,16 +785,24 @@ span.text-red {
   margin-top: 10px;
 }
 
+/* .hero-banner-image-h1 .hero-banner-container{
+  margin: 0px 0px 0px 0px;
+} */
+
 @media screen and (max-width:800px) {
   .hero-banner-container {
     height: 560px;
   }
 
-  .hero-banner-image {
-    width: 77%;
+  .hero-banner-image-container {
+    width: 77%; 
     height: 62%;
     top: -2%;
-    right: -6%;
+     right: -6%;
+  }
+
+  .hero-banner-image {
+    object-fit: contain;
   }
 
   .footer-banner-container {
@@ -781,11 +810,20 @@ span.text-red {
     margin-top: 80px;
   }
 
+  .footer-banner-image-container {
+    width: 76%;
+    height: 56%; 
+    /* left: 12%; */
+    top: 60%;
+
+    /* width: 400px;
+    height: 400px; */
+  }
+
   .footer-banner-image {
-    width: 77%;
-    left: 30%;
-    top: 6%;
-    height: 56%
+
+    object-fit: contain;
+
   }
 
   .banner-desc .left h3 {
