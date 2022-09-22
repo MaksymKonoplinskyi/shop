@@ -6,7 +6,7 @@ import { urlFor } from '../lib/client';
 const HeroBanner = ({ heroBanner }) => {
   return (
     <div className="hero-banner-container">
-      <div>
+      <div className="hero-banner-left-container">
         <p className="beats-solo">{heroBanner.smallText}</p>
         <h3>{heroBanner.midText}</h3>
         <h1 className="hero-banner-image-h1">{heroBanner.largeText}</h1>
@@ -17,14 +17,6 @@ const HeroBanner = ({ heroBanner }) => {
       <div className="hero-banner-image-container">
         <img src={urlFor(heroBanner.image)} alt={`${heroBanner.product}`} className="hero-banner-image" />
       </div>
-      <div>
-
-        {/* <div className="desc">
-            <h5>Description</h5>
-            <p>{heroBanner.desc}</p>
-          </div> */}
-      </div>
-
     </div>
   )
 }
