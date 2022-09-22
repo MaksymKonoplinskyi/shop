@@ -138,6 +138,7 @@ span.text-red {
 }
 
 .product-image-container {
+  
   /* border-radius: 15px;
   background-color: #ebebeb;
   transform: scale(1, 1);
@@ -167,7 +168,7 @@ span.text-red {
   background-color: #FEC901;
   border-radius: 15px;
   position: relative;
-  height: 400px;
+  height: 450px;
   line-height: 0.9;
   width: 100%;
   display: flex;
@@ -175,7 +176,7 @@ span.text-red {
 }
 
 .hero-banner-left-container {
-
+  padding-top: 50px;
 }
 
 .hero-banner-container .beats-solo {
@@ -208,11 +209,12 @@ span.text-red {
 }
 
 .hero-banner-image-container {
-  /* position: absolute;
-  top: 5%;
-  right: -350px; */
-  /* left: 0%; */ 
-
+  position: absolute;
+  /* top: 80px; */
+  right: 0;
+  bottom:-70px;
+  position: Bottom Right;
+  /* margin-bottom: -70px; */
 }
 
 .hero-banner-image {
