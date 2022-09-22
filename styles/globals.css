@@ -168,15 +168,16 @@ span.text-red {
   background-color: #FEC901;
   border-radius: 15px;
   position: relative;
-  height: 450px;
+  /* height: 450px; */
   line-height: 0.9;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 .hero-banner-left-container {
   padding-top: 50px;
+  padding-left: 20px ;
 }
 
 .hero-banner-container .beats-solo {
@@ -210,11 +211,12 @@ span.text-red {
 
 .hero-banner-image-container {
   position: absolute;
-  /* top: 80px; */
   right: 0;
   bottom:-70px;
-  position: Bottom Right;
+  width: 50%;
+  /* position: Bottom Right; */
   /* margin-bottom: -70px; */
+ 
 }
 
 .hero-banner-image {
@@ -798,16 +800,16 @@ span.text-red {
 
 @media screen and (max-width:800px) {
   .hero-banner-container {
-    height: 660px;
+    /* height: 860px; */
     display: block;
   }
 
-  /* .hero-banner-image-container {
-    width: 77%; 
-    height: 62%;
-    top: -2%;
-     right: -6%;
-  } */
+  .hero-banner-image-container {
+    width: 50%; 
+    /* height: 62%; */
+    /* top: -2%;
+     right: -6%; */
+  }
 
   .hero-banner-image {
     object-fit: contain;
@@ -818,13 +820,13 @@ span.text-red {
     margin-top: 80px;
   }
 
-  .hero-banner-image-container {
-    /* position: absolute;
+  /* .hero-banner-image-container {
+     position: absolute;
     top: 5%;
-    right: -350px; */
-    /* left: 0%; */ 
+    right: -350px; 
+     left: 0%; 
   
-  }
+  } */
   
   .hero-banner-image {
     object-fit: contain;
