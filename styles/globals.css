@@ -229,14 +229,14 @@ span.text-red {
   
   /* max-width: 430px; */
   width:50%;
-  margin: 230px -30% 0 -40%;
+  margin: 230px -45% 0 -50%;
   
 }
 
 .firstBanner__image {
   /* object-fit: contain; */
-  transform: translateY(-70%);
-  width: 100%;
+  transform: translateY(-73%);
+  width: 90%;
   /* margin: -30% -50% -30% -30%; */
 }
 
