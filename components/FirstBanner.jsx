@@ -18,9 +18,9 @@ const FirstBanner = ({ firstBanner: { mainText, discount, smallText1, smallText2
         />
       </div>
       <div className="firstBanner__rightDesc">
-        <p>{smallText2}</p>
+        <p className="firstBanner__smallText2" >{smallText2}</p>
         <h3>{largeText}</h3>
-        <p>{smallText3}</p>
+        <p className="firstBanner__smallText3" >{smallText3}</p>
         <Link href={`/product/${productNameForButtonLink}`}>
           <button type="button">{buttonText}</button>
         </Link>
