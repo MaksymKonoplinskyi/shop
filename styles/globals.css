@@ -281,6 +281,14 @@ span.text-red {
     padding: 45px 0px 0px 30px;
 
   }
+  .firstBanner__discount {
+    margin-top: 9px;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 38px;
+    color: #FEC901;
+  }
+
 
   .firstBanner__rightDesc {
     margin-top: 0px;
@@ -298,9 +306,9 @@ span.text-red {
     font-size: 45px;
   }
 
-  .firstBanner__container p {
+  /* .firstBanner__container p {
     font-size: 18px;
-  }
+  } */
 
   /* .firstBanner__rightDesc .company-desc {
     font-size: 14px;
