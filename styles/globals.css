@@ -168,7 +168,7 @@ span.text-red {
   background-color: #1882fa;
   border-radius: 15px;
   position: relative;
-  height: 230px;
+  height: 365px;
   /* line-height: 1; */
   color: white;
   width: 100%;
@@ -178,7 +178,7 @@ span.text-red {
 }
 
 .firstBanner__leftDesc {
-  margin: 30px 0px 0px 70px;
+  margin: 46px 0px 0px 71px;
   min-width: 245px;
 }
 
@@ -190,7 +190,7 @@ span.text-red {
   /* margin-left: 25px; */
 }
 
-.firstBanner__leftDesc .firstBanner__discount {
+.firstBanner__discount {
   font-weight: 900;
   font-size: 24px;
   line-height: 32px;
