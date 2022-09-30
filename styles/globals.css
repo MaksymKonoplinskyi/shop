@@ -249,12 +249,13 @@ span.text-red {
 
 @media screen and (max-width:1100px) and (min-width:800px) {
   .firstBanner__image-container {
+    width: 60%;
     margin: 395px -80% 0 -67%;
-    max-width: 800px;
+
   }
   
   .firstBanner__image {
-    transform: translate(-120px, -73%);
+    transform: translate(-170px, -73%);
   }
 
   .firstBanner__leftDesc h2 {
