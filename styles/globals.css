@@ -316,7 +316,7 @@ span.text-red {
   }
 
   .firstBanner__image {
-    transform: translate(-1%, -7%);
+    transform: translate(-1.5%, -7%);
     /* transform: translateY(-73%); */
     width: 100%;
     /* margin: -30% -50% -30% -30%; */
