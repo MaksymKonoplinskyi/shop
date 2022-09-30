@@ -291,19 +291,22 @@ span.text-red {
 
 
   .firstBanner__rightDesc {
-    margin: 0px;
+
+    margin: 0;
     padding-left: 35px;
     padding-top: 15px;
+    /* margin-left: auto; */
   }
 
-  .firstBanner__leftDesc h3 {
+  .firstBanner__leftDesc h2 {
+
     font-weight: 900;
-    font-size: 50px;
-    /* margin-left: 5px; */
+    font-size: 60px;
   }
 
   .firstBanner__rightDesc h3 {
     font-size: 45px;
+    margin: 0 0 0 auto;
   }
 
   .firstBanner__image-container {
