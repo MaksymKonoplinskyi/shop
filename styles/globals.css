@@ -289,16 +289,6 @@ span.text-red {
 
   }
 
-  .firstBanner__image-container {
-    width: 60%;
-    margin: 395px -80% 0 -67%;
-
-  }
-  
-  .firstBanner__image {
-    transform: translate(-180px, -73%);
-  }
-
 
   .firstBanner__rightDesc {
     margin-top: 0px;
@@ -331,7 +321,7 @@ span.text-red {
   }
 
   .firstBanner__image {
-    transform: translate(0%, 0%);
+    transform: translate(0%, -7%);
     /* transform: translateY(-73%); */
     width: 100%;
     /* margin: -30% -50% -30% -30%; */
