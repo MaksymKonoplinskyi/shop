@@ -247,7 +247,7 @@ span.text-red {
     width: 60%;
     margin: 395px -80% 0 -67%;
   }
-  
+
   .firstBanner__image {
     transform: translate(-180px, -73%);
   }
@@ -256,6 +256,7 @@ span.text-red {
     font-size: 55px;
     line-height: 55px;
   }
+
   .firstBanner__rightDesc h3 {
     font-size: 45px;
     line-height: 45px;
@@ -298,14 +299,17 @@ span.text-red {
   .firstBanner__image {
     transform: translate(-1.5%, -7%);
   }
+
   .firstBanner__smallText3 {
     display: none;
   }
+
   .firstBanner__rightDesc button {
     margin-top: 10px;
     margin-bottom: 35px;
   }
 }
+
 /* ///////////////////firstBanner end*/
 /* ////////////////secondBanner start*/
 .secondBanner__container {
@@ -332,17 +336,20 @@ span.text-red {
   font-size: 16px;
   line-height: 16px;
 }
+
 .secondBanner__container h3 {
   font-weight: 700;
   font-size: 60px;
   line-height: 60px;
 }
+
 .secondBanner__container h2 {
   color: white;
   font-size: 140px;
   line-height: 120px;
   text-transform: uppercase;
 }
+
 .secondBanner__container button {
   border-radius: 15px;
   padding: 10px 16px;
@@ -355,6 +362,7 @@ span.text-red {
   font-weight: 500;
   cursor: pointer;
 }
+
 .secondBanner__imageContainer {
   position: absolute;
   right: 7%;
@@ -371,6 +379,19 @@ span.text-red {
   height: 100%;
 }
 
+@media screen and (max-width:1000px) and (min-width:800px) {
+  .secondBanner__imageContainer {
+    right: 2%;
+    bottom: -80px;
+    width: 50%;
+  }
+
+  .secondBanner__image {
+    object-fit: contain;
+    width: 95%;
+    height: 95%;
+  }
+}
 
 @media screen and (max-width:800px) {
   .secondBanner__container {
@@ -405,7 +426,6 @@ span.text-red {
 
   .secondBanner__container button {
     margin-top: 0px;
-    z-index: 10000;
   }
 
 }
