@@ -247,6 +247,16 @@ span.text-red {
   /* margin: -30% -50% -30% -30%; */
 }
 
+@media screen and (max-width:1100px) and (min-width:800px) {
+  .firstBanner__image-container {
+    margin: 395px -80% 0 -67%;
+    max-width: 800px;
+  }
+  
+  .firstBanner__image {
+    transform: translate(-220px, -73%);
+  }
+}
 
 
 @media screen and (max-width:800px) {
