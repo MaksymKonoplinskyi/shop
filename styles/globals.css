@@ -237,11 +237,6 @@ span.text-red {
   /* margin: -30% -50% -30% -30%; */
 }
 
-.firstBanner__rightDesc {
-  /* line-height: 1.4; */
-}
-
-
 .firstBanner__rightDesc button {
   border-radius: 15px;
   padding: 10px 16px;
@@ -252,19 +247,25 @@ span.text-red {
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
+  
 }
 
 @media screen and (max-width:800px) {
   .firstBanner__container {
     height: 560px;
-    margin-top: 80px;
+    margin-top: 0px;
+    display: block;
   }
 
   .firstBanner__leftDesc {
-    flex-wrap: wrap;
-    gap: 20px;
+    /* flex-wrap: wrap; */
+    /* gap: 20px; */
   }
-
+  .firstBanner__rightDesc {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 45px;
+  }
   .firstBanner__leftDesc h3 {
     font-weight: 900;
     font-size: 50px;
@@ -282,6 +283,19 @@ span.text-red {
   .firstBanner__rightDesc .company-desc {
     font-size: 14px;
   }
+
+  .firstBanner__image-container {
+    width: 100%;
+    margin: -25% auto -30% auto;
+    /* max-width: 600px; */
+  }
+  
+  .firstBanner__image {
+    transform: translate(0%, 0%);
+    /* transform: translateY(-73%); */
+    width: 100%;
+    /* margin: -30% -50% -30% -30%; */
+  }
 }
 
 /* ///////////////////firstBanner end*/
@@ -298,9 +312,14 @@ span.text-red {
   justify-content: space-between; */
 }
 
-.secondBanner__left-container {
+.firstBanner__leftDesc {
   padding-top: 50px;
   padding-left: 20px;
+}
+
+.firstBanner__rightDesc {
+  margin-top: 80px;
+  margin-right: 46px;
 }
 
 .secondBanner__smallText {
