@@ -324,7 +324,9 @@ span.text-red {
   .firstBanner__smallText3 {
     display: none;
   }
-
+  .firstBanner__rightDesc button {
+    margin-top: 15px;
+  }
 }
 
 /* ///////////////////firstBanner end*/
