@@ -256,6 +256,17 @@ span.text-red {
   .firstBanner__image {
     transform: translate(-220px, -73%);
   }
+
+  .firstBanner__leftDesc h2 {
+    font-size: 37px;
+    line-height: 37px;
+  }
+  .firstBanner__rightDesc h3 {
+
+
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 
