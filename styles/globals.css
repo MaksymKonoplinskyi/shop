@@ -221,7 +221,7 @@ span.text-red {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 14px;
+  /* line-height: 14px; */
 }
 
 .firstBanner__image-container {
