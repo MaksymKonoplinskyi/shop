@@ -279,14 +279,24 @@ span.text-red {
 
   .firstBanner__leftDesc {
     padding: 45px 0px 0px 30px;
-
+    margin: 0px;
   }
   .firstBanner__discount {
-    margin-top: 9px;
+    /* margin-top: 9px;
     font-weight: 900;
     font-size: 38px;
-    line-height: 38px;
-    color: #FEC901;
+    line-height: 38px; */
+
+  }
+
+  .firstBanner__image-container {
+    width: 60%;
+    margin: 395px -80% 0 -67%;
+
+  }
+  
+  .firstBanner__image {
+    transform: translate(-180px, -73%);
   }
 
 
