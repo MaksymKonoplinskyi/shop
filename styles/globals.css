@@ -181,7 +181,7 @@ span.text-red {
 }
 
 .firstBanner__leftDesc {
-  margin: 46px 0px 0px 71px;
+  margin: 46px 0px 0px 5.1%;
   min-width: 245px;
 }
 
@@ -207,7 +207,7 @@ span.text-red {
 
 .firstBanner__rightDesc {
   margin-top: 132px;
-  margin-right: 71px;
+  margin-right: 5.1%;
 }
 
 
@@ -236,7 +236,7 @@ span.text-red {
 
 .firstBanner__image-container {
   width: 50%;
-  margin: 390px -30% 0 -67%;
+  margin: 395px -30% 0 -67%;
   max-width: 800px;
 }
 
