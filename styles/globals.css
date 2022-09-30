@@ -339,7 +339,7 @@ span.text-red {
 }
 .secondBanner__container h2 {
   color: white;
-  font-size: 100px;
+  font-size: 140px;
   /* margin-left: -20px; */
   text-transform: uppercase;
 }
@@ -357,7 +357,7 @@ span.text-red {
 }
 .secondBanner__imageContainer {
   position: absolute;
-  right: 10px;
+  right: 7%;
   bottom: -90px;
   width: 50%;
   /* position: Bottom Right; */
