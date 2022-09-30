@@ -357,7 +357,7 @@ span.text-red {
 }
 .secondBanner__imageContainer {
   position: absolute;
-  right: 0;
+  right: 10px;
   bottom: -90px;
   width: 50%;
   /* position: Bottom Right; */
