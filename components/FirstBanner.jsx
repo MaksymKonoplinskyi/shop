@@ -10,7 +10,7 @@ const FirstBanner = ({ firstBanner: { mainText, discount, smallText1, smallText2
         <h2>{mainText}</h2>
         <p className="firstBanner__discount">{discount}</p>
 
-        <p>{smallText1}</p>
+        <p className="firstBanner__smallText1">{smallText1}</p>
       </div>
       <div className="firstBanner__image-container">
         <img

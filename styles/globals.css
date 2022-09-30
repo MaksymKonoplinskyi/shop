@@ -174,7 +174,10 @@ span.text-red {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
 }
 
 .firstBanner__leftDesc {
@@ -183,50 +186,57 @@ span.text-red {
 }
 
 .firstBanner__leftDesc h2 {
-  margin-top: 6px;
+  /* margin-top: 6px; */
   font-weight: 900;
-  font-size: 45px;
-  line-height: 39px;
+  font-size: 72px;
+  line-height: 72px;
   /* margin-left: 25px; */
 }
 
 .firstBanner__discount {
+  margin-top: 9px;
   font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 38px;
+  line-height: 38px;
   color: #FEC901;
 }
 
-.firstBanner__rightDesc {
-  margin-top: 80px;
-  margin-right: 46px;
+.firstBanner__smallText1 {
+  margin-top: 13px;
 }
 
-.firstBanner__smallText2{
-  
+.firstBanner__rightDesc {
+  margin-top: 132px;
+  margin-right: 71px;
 }
+
 
 .firstBanner__rightDesc h3 {
-  margin-top: 3px;
+  margin-top: 5px;
   font-weight: 900;
   font-size: 60px;
   line-height: 60px;
 }
 
-.firstBanner__smallText3{
-  margin-top: 8px;
+.firstBanner__smallText3 {
+  margin-top: 15px;
 }
 
-.firstBanner__container p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 16px;
+.firstBanner__rightDesc button {
+  border-radius: 15px;
+  padding: 10px 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .firstBanner__image-container {
   width: 50%;
-  margin: 250px -30% 0 -60%;
+  margin: 380px -30% 0 -72%;
   max-width: 600px;
 }
 
@@ -237,18 +247,7 @@ span.text-red {
   /* margin: -30% -50% -30% -30%; */
 }
 
-.firstBanner__rightDesc button {
-  border-radius: 15px;
-  padding: 10px 16px;
-  background-color: red;
-  color: white;
-  border: none;
-  margin-top: 17px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  
-}
+
 
 @media screen and (max-width:800px) {
   .firstBanner__container {
@@ -261,11 +260,13 @@ span.text-red {
     /* flex-wrap: wrap; */
     /* gap: 20px; */
   }
+
   .firstBanner__rightDesc {
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 45px;
   }
+
   .firstBanner__leftDesc h3 {
     font-weight: 900;
     font-size: 50px;
@@ -289,7 +290,7 @@ span.text-red {
     margin: -25% auto -30% auto;
     /* max-width: 600px; */
   }
-  
+
   .firstBanner__image {
     transform: translate(0%, 0%);
     /* transform: translateY(-73%); */
@@ -317,10 +318,6 @@ span.text-red {
   padding-left: 20px;
 } */
 
-.firstBanner__rightDesc {
-  margin-top: 80px;
-  margin-right: 46px;
-}
 
 .secondBanner__smallText {
   font-size: 20px;
