@@ -273,13 +273,13 @@ span.text-red {
 @media screen and (max-width:800px) {
   .firstBanner__container {
     height: 560px;
-    margin-top: 0px;
+    /* margin-top: 0px; */
     display: block;
   }
 
   .firstBanner__leftDesc {
-    /* flex-wrap: wrap; */
-    /* gap: 20px; */
+    padding: 45px 0px 0px 30px;
+
   }
 
   .firstBanner__rightDesc {
@@ -291,7 +291,7 @@ span.text-red {
   .firstBanner__leftDesc h3 {
     font-weight: 900;
     font-size: 50px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
   }
 
   .firstBanner__rightDesc h3 {
