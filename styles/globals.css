@@ -209,8 +209,8 @@ span.text-red {
 .firstBanner__rightDesc h3 {
   margin-top: 3px;
   font-weight: 900;
-  font-size: 37px;
-  line-height: 35px;
+  font-size: 60px;
+  line-height: 60px;
 }
 
 .firstBanner__smallText3{
@@ -221,7 +221,7 @@ span.text-red {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 14px;
+  line-height: 16px;
 }
 
 .firstBanner__image-container {
