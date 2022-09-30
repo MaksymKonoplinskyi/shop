@@ -258,14 +258,13 @@ span.text-red {
   }
 
   .firstBanner__leftDesc h2 {
-    font-size: 37px;
-    line-height: 37px;
+    font-size: 45px;
+    line-height: 45px;
   }
   .firstBanner__rightDesc h3 {
 
-
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 37px;
+    line-height: 37px;
   }
 }
 
