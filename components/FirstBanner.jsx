@@ -25,7 +25,6 @@ const FirstBanner = ({ firstBanner: { mainText, discount, smallText1, smallText2
           <button type="button">{buttonText}</button>
         </Link>
       </div>
-      
     </div>
 
   )
