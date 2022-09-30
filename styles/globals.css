@@ -291,9 +291,8 @@ span.text-red {
 
 
   .firstBanner__rightDesc {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-left: 30px;
+    margin: 0px;
+    padding-left: 35px
   }
 
   .firstBanner__leftDesc h3 {
