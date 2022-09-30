@@ -220,7 +220,7 @@ span.text-red {
 .firstBanner__container p {
   font-style: normal;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 16px;
   line-height: 14px;
 }
 
@@ -280,9 +280,9 @@ span.text-red {
     font-size: 18px;
   }
 
-  .firstBanner__rightDesc .company-desc {
+  /* .firstBanner__rightDesc .company-desc {
     font-size: 14px;
-  }
+  } */
 
   .firstBanner__image-container {
     width: 100%;
