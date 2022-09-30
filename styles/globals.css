@@ -293,7 +293,7 @@ span.text-red {
   .firstBanner__rightDesc {
 
     margin: 0;
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 15px;
     /* margin-left: auto; */
   }
@@ -326,7 +326,7 @@ span.text-red {
   }
   .firstBanner__rightDesc button {
     margin-top: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
   }
 }
 
