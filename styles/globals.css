@@ -305,14 +305,6 @@ span.text-red {
     font-size: 45px;
   }
 
-  /* .firstBanner__container p {
-    font-size: 18px;
-  } */
-
-  /* .firstBanner__rightDesc .company-desc {
-    font-size: 14px;
-  } */
-
   .firstBanner__image-container {
     width: 100%;
     margin: -25% auto -30% auto;
@@ -325,6 +317,10 @@ span.text-red {
     width: 100%;
     /* margin: -30% -50% -30% -30%; */
   }
+  .firstBanner__smallText3 {
+    display: none;
+  }
+
 }
 
 /* ///////////////////firstBanner end*/
