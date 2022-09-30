@@ -278,7 +278,7 @@ span.text-red {
   }
 
   .firstBanner__leftDesc {
-    padding: 35px 0px 0px 30px;
+    padding: 30px 0px 15px 30px;
     margin: 0px;
   }
   .firstBanner__discount {
@@ -292,7 +292,8 @@ span.text-red {
 
   .firstBanner__rightDesc {
     margin: 0px;
-    padding-left: 35px
+    padding-left: 35px;
+    padding-top: 15px;
   }
 
   .firstBanner__leftDesc h3 {
