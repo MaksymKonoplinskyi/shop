@@ -272,7 +272,7 @@ span.text-red {
 
 @media screen and (max-width:800px) {
   .firstBanner__container {
-    height: 560px;
+    height: auto;
     /* margin-top: 0px; */
     display: block;
   }
@@ -326,6 +326,7 @@ span.text-red {
   }
   .firstBanner__rightDesc button {
     margin-top: 15px;
+    margin-bottom: 20px;
   }
 }
 
