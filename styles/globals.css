@@ -412,7 +412,7 @@ span.text-red {
     /* object-fit: contain;
     width: 100%;
     height: 100%; */
-    margin: -1% auto -10% auto;
+    margin: 1% auto -10% auto;
     margin-bottom: -10%;
   }
 
@@ -432,7 +432,7 @@ span.text-red {
   }
 
   .secondBanner__container button {
-    margin-top: 35px;
+    margin-top: 20px;
     margin-bottom: 0px;
   }
 
