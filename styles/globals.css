@@ -476,6 +476,7 @@ span.text-red {
 .products-heading h2 {
   font-size: 40px;
   font-weight: 800;
+  margin-bottom: 10px;
 }
 
 .products-heading p {
