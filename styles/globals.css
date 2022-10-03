@@ -822,7 +822,7 @@ span.text-red {
 
 .quantity-desc {
   border: 1px solid gray;
-  padding: 6px;
+  padding: 6px 0px;
 }
 
 .quantity-desc span {
@@ -832,13 +832,15 @@ span.text-red {
 }
 
 .quantity-desc .minus {
-  border-right: 1px solid gray;
+  /* border-right: 1px solid gray; */
   color: #f02d34;
+  /* margin: auto; */
 }
 
 .quantity-desc .num {
   border-right: 1px solid gray;
-  font-size: 20px;
+  border-left: 1px solid gray;
+  font-size: 24px;
 }
 
 .quantity-desc .plus {
